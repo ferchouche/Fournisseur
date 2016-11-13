@@ -30,12 +30,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="API" target="1.5" />
-      <module name="Application" target="1.5" />
-      <module name="Domain" target="1.5" />
-      <module name="Fournisseur" target="1.5" />
-      <module name="Infrastructure" target="1.5" />
-      <module name="Presentation" target="1.5" />
+      <module name="API" target="1.6" />
+      <module name="Application" target="1.6" />
+      <module name="Domain" target="1.6" />
+      <module name="Fournisseur" target="1.6" />
+      <module name="Infrastructure" target="1.6" />
+      <module name="Presentation" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
