@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Presentation:war exploded">
+    <output-path>$PROJECT_DIR$/Presentation/target/Presentation-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Presentation" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="API-1.0.jar">
+            <element id="module-output" name="API" />
+          </element>
+          <element id="archive" name="Application-1.0.jar">
+            <element id="module-output" name="Application" />
+          </element>
+          <element id="archive" name="Domain-1.0.jar">
+            <element id="module-output" name="Domain" />
+          </element>
+          <element id="archive" name="Infrastructure-1.0.jar">
+            <element id="module-output" name="Infrastructure" />
+          </element>
+          <element id="library" level="project" name="Maven: org.sonarsource.sonarqube:sonar-plugin-api:6.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:woodstox-core-lgpl:4.4.0" />
+          <element id="library" level="project" name="Maven: javax.xml.stream:stax-api:1.0-2" />
+          <element id="library" level="project" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" />
+          <element id="library" level="project" name="Maven: org.codehaus.staxmate:staxmate:2.0.1" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.4" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.21" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Presentation/target/Presentation-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Presentation/web/Web" />
+    </root>
+  </artifact>
+</component>

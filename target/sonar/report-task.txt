@@ -1,0 +1,5 @@
+projectKey=com.alma.fournisseur:fournisseur
+serverUrl=http://localhost:9000
+dashboardUrl=http://localhost:9000/dashboard/index/com.alma.fournisseur:fournisseur
+ceTaskId=AVhbAD-jBO93KJX-boIU
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AVhbAD-jBO93KJX-boIU
