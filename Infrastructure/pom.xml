@@ -12,5 +12,17 @@
 
     <artifactId>Infrastructure</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alma.fournisseur</groupId>
+            <artifactId>API</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alma.fournisseur</groupId>
+            <artifactId>Domain</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

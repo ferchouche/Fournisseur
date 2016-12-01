@@ -13,11 +13,6 @@
     <dependencies>
         <dependency>
             <groupId>com.alma.fournisseur</groupId>
-            <artifactId>API</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alma.fournisseur</groupId>
             <artifactId>Application</artifactId>
             <version>1.0</version>
         </dependency>
