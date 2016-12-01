@@ -7,13 +7,11 @@ package com.boot.controller;
 import com.alma.fournisseur.infra.factory.Product;
 import com.alma.fournisseur.infra.repository.ProductRepository;
 
+import org.json.JSONObject;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
 @RestController
 @RequestMapping("api/v1/")
@@ -48,5 +46,17 @@ public class ProductController {
         Product existingProduct = productRepository.findOne(id);
         productRepository.delete(existingProduct);
         return existingProduct;
+    }
+    @RequestMapping(value = "/product-totalprice" , method=RequestMethod.GET, produces="application/json")
+    public String productrequest(@RequestParam(value="id", required=true) Long id, @RequestParam(value="quantity", required=true) int quantity) {
+        JSONObject jsonResponse = new JSONObject();
+        Product existingProduct = productRepository.findOne(id);
+
+        jsonResponse.put("total price",quantity*existingProduct.getPrice());
+
+
+
+
+        return jsonResponse.toString();
     }
 }

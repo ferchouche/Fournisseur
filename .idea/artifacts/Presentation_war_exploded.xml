@@ -19,6 +19,7 @@
           <element id="archive" name="Infrastructure-1.0.jar">
             <element id="module-output" name="Infrastructure" />
           </element>
+          <element id="library" level="project" name="Maven: org.json:json:20140107" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:1.4.2.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:1.4.2.RELEASE" />

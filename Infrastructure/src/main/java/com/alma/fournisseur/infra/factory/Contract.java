@@ -2,14 +2,14 @@ package com.alma.fournisseur.infra.factory;
 
 import com.alma.fournisseur.domain.model.ContractModel;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 /**
  * Created by Abdeldjallil on 29/11/2016.
  */
+@Entity
+@Table(name="CONTRACT")
 public class Contract extends ContractModel {
 
     public Contract() {
